@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.p1 {
+    background-image: url(../assets/images/camelride.jpg);
+}
+
+.p2 {
+    background-image: url(../assets/images/mountains.jpg);
+}
+
+.p3 {
+    background-image: url(../assets/images/pyramid.jpg);
+}
+
+.p4 {
+    background-image: url(../assets/images/sunset.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: auto;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background: #fff;
+    padding: 10px;
+    margin: 3px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info h3 {
+    font-weight: 500;
+}
+
+.user-info img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #050505;
+    margin: 12px 0;
+}
+
+.sub-menu-link p {
+    width: 100%;
+    color: #000;
+}
+
+.sub-menu-link img {
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.sub-menu-link span {
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+
+.sub-menu-link:hover {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}

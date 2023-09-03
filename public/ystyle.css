@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800 important;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    color: #000;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative6;
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 14px 22px;
+    transition: all 0.3s ease;
+
+}
+
+.btn-main {
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #000;
+    transform: translateY(-5px);
+}
+
+.navbar {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(#eeff00, #fd0a0afa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider {
+    height: 2px;
+    width: 70px;
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    margin: 16px auto;
+}
+
+.course {
+    margin-bottom: 20px;
+}
+
+.course .divider {
+    height: 2px;
+    width: 70px;
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    margin: 16px auto;
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.about-intro .divider {
+    height: 2px;
+    width: 100px;
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    margin: 16px auto;
+}
+
+.about-intro .hdivider {
+    height: 2px;
+    width: 70px;
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    margin: 16px auto;
+}
+
+form .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+form input.form-control {
+    height: 54px;
+}
+
+form .form-control::placeholder {
+    color: #fff;
+}
+
+footer {
+    background: linear-gradient(to right, #eeff00, #fd0a0afa);
+    color: #fff;
+}

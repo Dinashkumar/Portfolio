@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Webpage</title>
+    <link rel="stylesheet" href="desert.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="../assets/images/globe.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">REGION</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROFILE</a></li>
+                </ul>
+            </nav>
+            
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu" onclick="toggleMenu">
+                    <div class="user-info">
+                        <img src="../assets/images/menu.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <h3>Info</h3>
+                    </div>
+                    
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="../assets/images/profile icon.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../assets/images/setting.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <p>Settings</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../assets/images/nightmode.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <p>Display mode</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../assets/images/support.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+                        <img src="../assets/images/logout.png" alt="Avatar logo" style="width: 30px;" class="rounded-pill">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>Sahara</h1>
+                <p>
+                    The concept of designing this safety wear is to prevent the roadside accidents especially who walks
+                    on the sideways of the road. The main victims of this of clash or accidents are mostly general
+                    public, policemen, and the people who involved in physical activities like walking, running, cycling
+                    during the late evenings and early mornings</p>
+                <button type="button">Explore</button>
+            </div>
+            <div class="col">
+                <div class="card p1">
+                    <h5>Desert Ride</h5>
+                    <p> The concept of designing this safety wear is to prevent the roadside accidents.</p>
+                </div>
+                <div class="card p2">
+                    <h5>Mount red</h5>
+                    <p> The concept of designing this safety wear is to prevent the roadside accidents. </p>
+                </div>
+                <div class="card p3">
+                    <h5>Pyramid</h5>
+                    <p> The concept of designing this safety wear is to prevent the roadside accidents.</p>
+                </div>
+                <div class="card p4">
+                    <h5>Desert Sunset</h5>
+                    <p> The concept of designing this safety wear is to prevent the roadside accidents.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+
+</html>
